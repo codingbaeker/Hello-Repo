@@ -37,8 +37,31 @@
 # print(len(li))
 # print(li[-1])
 
+
+'Inpair numbers without modulo'
+
 for i in range(101):
     j = i // 2
     if j != (i/2):
         print(i)
+
+'prime numbers'
+
+for num in range(101):
+    if num > 1:
+        prime = True
+        j = 2
+        while (j < num):
+            if (num % j) == 0:
+                prime = False
+            j += 1
+        if prime is True:
+            print(num)
+    
+        
+
+
+
+
+
     
