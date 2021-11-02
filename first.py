@@ -24,7 +24,21 @@
 # print(not bol2)
 
 
-for i in range(101):
-    if i%2 == 0:
-        print(i)
+# for i in range(101):
+#     if i%2 == 0:
+#         print(i)
 
+# var_rapida = 0
+
+# if type(var_rapida) is int:
+#     print('its an integer')
+
+# li = [1,2,3,4,5]
+# print(len(li))
+# print(li[-1])
+
+for i in range(101):
+    j = i // 2
+    if j != (i/2):
+        print(i)
+    
